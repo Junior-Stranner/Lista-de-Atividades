@@ -37,7 +37,7 @@ public class Atividade2 {
 
 		for (i = 0; i < 3; i++) {
 			aluno[i] = aluno[i] + media[i];
-			System.out.println(" digite todas as medias dos alunos : " + aluno[i]);
+		System.out.println(" digite todas as medias dos alunos : " + aluno+"["+i+"]");
 		}
 		calculaMediaTurma(media);
 	}
@@ -60,8 +60,8 @@ public class Atividade2 {
 			}
 
 		}
-		System.out.println(" media geral ="+mediaTurma);
-		System.out.println("acima ="+acimaMedia +"\n abaixo ="+abaixoMedia);
+		System.out.println(" media geral = "+mediaTurma);
+		System.out.println("acima = "+acimaMedia +"\n abaixo = "+abaixoMedia);
 	}
 
 
